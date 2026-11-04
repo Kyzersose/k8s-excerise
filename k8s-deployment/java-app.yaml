@@ -18,7 +18,7 @@ spec:
       - name: my-registry-key
       containers:
       - name: javamysqlapp
-        image: {repo-name}/demo-app:{image-tag}
+        image: kyzersose/k8s-demo-app:1.0
         ports:
         - containerPort: 8080
         env:
